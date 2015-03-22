@@ -487,7 +487,8 @@ int main(int argc, char *argv[])
         }
         if (!overlay)
         {
-            string systemCall = "pstitle " + epsFile + " " + epsFile;
+            string systemCall = "sed -i 's/^%%Title:.*/%%Title: '"
+                              + epsFile + "/" + epsFile;
             systemVerbose(systemCall);
         }
     }
