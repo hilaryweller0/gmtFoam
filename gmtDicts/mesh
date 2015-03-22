@@ -33,3 +33,5 @@ FieldsToPlot
 //     (see man psbasemap for detail on -B option)
 boundaryMarks "a0.1/a0.1";
 
+// Do not show dots on the boundary
+addBoundaryDots false;
