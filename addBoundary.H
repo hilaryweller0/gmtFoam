@@ -122,7 +122,7 @@ fileName tmpFile = args.rootPath() / args.caseName()
 
 // plot boundary
 string systemCall = "psxy '" + tmpFile + "' -Sp2p"
-                      + " -J -R -h1 -K -O >>" + epsFile;
+                      + " -J -R -H1 -K -O >>" + epsFile;
 systemVerbose(systemCall);
 
 // delete temporary files

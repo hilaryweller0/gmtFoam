@@ -34,4 +34,4 @@ FieldsToPlot
 boundaryMarks "a0.1/a0.1";
 
 // Do not show dots on the boundary
-addBoundaryDots false;
+plotBoundaryDots false;
