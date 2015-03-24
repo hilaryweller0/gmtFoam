@@ -29,7 +29,7 @@ FieldsToPlot
 //  where plotType is one of filledContours, solidContours, dashedContours,
 //  vectors, vectorContours, mesh, meshPoints, meshCentres or rawValues
 
-    [p rawValues 0 0 0 "$GMTU/colours/red_white_blue.cpt"]
+    [p rawValues -5 5 0.5 "$GMTU/colours/red_white_blue.cpt"]
 
 // for plotType vectors, the next numbers are the vector scale and then the
 // stride to not plotting every vector
