@@ -34,7 +34,7 @@ FieldsToPlot
 // for plotType vectors, the next numbers are the vector scale and then the
 // stride to not plotting every vector
 
-    [U vectors 0.01 1 "1pt,black"]
+    [U vectors 0.01 1 "1p,black"]
 );
 
 // other options:

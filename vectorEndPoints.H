@@ -102,7 +102,7 @@ fileName tmpFile = args.rootPath() / args.caseName()
 // plot vectors
 systemCall = "psxy '" + tmpFile + "' -J -R -h1 -Sv0.5i+s+e"
                   + " -W" + fieldsToPlot[ifield].colourScale()
-                  + " -G" + fieldsToPlot[ifield].colourScale()
+               //   + " -G" + fieldsToPlot[ifield].colourScale()
                   + " -O -K >> " + epsFile;
 systemVerbose(systemCall);
 
